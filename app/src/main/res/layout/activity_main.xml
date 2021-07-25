@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnS"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:onClick="scheduleJob"
+        android:text="Schedule Job"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+
+
+        />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:ems="10"
+        android:hint="Number not defined"
+        android:inputType="phone"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:onClick="saveNumber"
+        android:text="Save Number"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:onClick="cancelJob"
+        android:text="Cancel Job"
+        android:layout_marginBottom="50dp"
+        />
+
+    <Button
+    android:id="@+id/btnL"
+    android:layout_width="300dp"
+    android:layout_height="50dp"
+    android:onClick="viewLog"
+    android:text="View Log"
+
+    />
+
+
+    <Button
+        android:id="@+id/btnXML"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:onClick="loadXML"
+        android:text="Load XML"
+        android:layout_marginBottom="50dp"
+
+        />
+    <Button
+        android:id="@+id/btnRCnt"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:onClick="resetCnt"
+        android:text="Reset Counters"
+        android:layout_marginBottom="10dp"
+
+        />
+
+
+
+
+</LinearLayout>
